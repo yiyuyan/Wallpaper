@@ -10,6 +10,7 @@
     "AccessibilityOnboardingScreenMixin",
     "CreateWorldScreenMixin",
     "ScreenMixin",
+    "TitleScreenMixin",
     "WinScreenMixin",
     "fix.PngInfoMixin"
   ],

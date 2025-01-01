@@ -2,11 +2,14 @@
 #Default: false
 enable = true
 #The file path of the wallpaper.
-path = "6.png"
+path = "E:\\SteamLibrary\\steamapps\\workshop\\content\\431960\\2142333294\\vrq4y9fdv2651.png"
 #The enable of the background blur when the wallpaper working.
 #Default: false
 blur_enable = false
 #The enable of the wallpaper if work on the win screen.
 #Default: true
-win_game_enable = true
+win_screen_enable = true
+#The enable of the wallpaper if work on the title screen.
+#Default: true
+title_screen_enable = true
 

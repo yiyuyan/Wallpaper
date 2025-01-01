@@ -9,7 +9,8 @@ public class Config {
 
     public static final ModConfigSpec.BooleanValue ENABLED = BUILDER.comment("The enable of the wallpaper module.").comment("Default: false").define("enable",false);
     public static final ModConfigSpec.BooleanValue BLUR_ENABLED = BUILDER.comment("The enable of the background blur when the wallpaper working.").comment("Default: false").define("blur_enable",false);
-    public static final ModConfigSpec.BooleanValue WIN_SCREEN_ENABLED = BUILDER.comment("The enable of the wallpaper if work on the win screen.").comment("Default: true").define("win_game_enable",true);
+    public static final ModConfigSpec.BooleanValue WIN_SCREEN_ENABLED = BUILDER.comment("The enable of the wallpaper if work on the title screen.").comment("Default: true").define("title_screen_enable",true);
+    public static final ModConfigSpec.BooleanValue TITLE_SCREEN_ENABLED = BUILDER.comment("The enable of the wallpaper if work on the win screen.").comment("Default: true").define("win_screen_enable",true);
     public static final ModConfigSpec.ConfigValue<String> PATH = BUILDER.comment("The file path of the wallpaper.").define("path","");
 
     public static final ModConfigSpec SPEC = BUILDER.build();
