@@ -1,0 +1,12 @@
+#The enable of the wallpaper module.
+#Default: false
+enable = true
+#The file path of the wallpaper.
+path = "6.png"
+#The enable of the background blur when the wallpaper working.
+#Default: false
+blur_enable = false
+#The enable of the wallpaper if work on the win screen.
+#Default: true
+win_game_enable = true
+

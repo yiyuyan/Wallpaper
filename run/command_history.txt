@@ -1,0 +1,7 @@
+/execute in minecraft:the_end run tp 0 100 0
+/kill @e[type=!minecraft:player]
+/execute in minecraft:the_end run tp 0 100 0
+/advancement revoke @s everything
+/kill @e[type=!minecraft:player]
+/execute in minecraft:the_end run tp 0 100 0
+/kill @e[type=!minecraft:player]

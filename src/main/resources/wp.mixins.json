@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.wp.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "wp.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "AccessibilityOnboardingScreenMixin",
+    "CreateWorldScreenMixin",
+    "ScreenMixin",
+    "WinScreenMixin",
+    "fix.PngInfoMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
