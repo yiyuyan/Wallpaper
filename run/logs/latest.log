@@ -1,63 +1,67 @@
-[011ÔÂ2025 13:37:33.314] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.0.11-beta, --assetIndex, 17, --assetsDir, E:\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.neoForgeVersion, 21.0.11-beta, --fml.fmlVersion, 4.0.6, --fml.mcVersion, 1.21, --fml.neoFormVersion, 20240613.152323]
-[011ÔÂ2025 13:37:33.317] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation OpenJDK 64-Bit Server VM 21.0.2+13-58
-[011ÔÂ2025 13:37:33.319] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.3+main.0f24dec3 starting: java version 21.0.2 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[011ÔÂ2025 13:37:33.463] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[011ÔÂ2025 13:37:33.634] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[011ÔÂ2025 13:37:33.711] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[011ÔÂ2025 13:37:33.851] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/E:/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.4+mixin.0.8.5/8adf0cff1795a169141b9e16ad7b9f6e2527a990/sponge-mixin-0.13.4+mixin.0.8.5.jar%23131!/ Service=ModLauncher Env=CLIENT
-[011ÔÂ2025 13:37:34.089] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) HD Graphics 630 GL version 4.6.0 - Build 31.0.101.2121, Intel
-[011ÔÂ2025 13:37:34.558] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[011ÔÂ2025 13:37:34.838] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [neoforge]
-[011ÔÂ2025 13:37:36.389] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.0.11-beta, --gameDir, ., --assetsDir, E:\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
-[011ÔÂ2025 13:37:36.451] [main/WARN] [mixin/]: Reference map 'wp.refmap.json' for wp.mixins.json could not be read. If this is a development environment you can ignore this message
-[011ÔÂ2025 13:37:38.250] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 433 milliseconds
-[011ÔÂ2025 13:37:44.322] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[011ÔÂ2025 13:37:44.324] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[011ÔÂ2025 13:37:44.327] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[011ÔÂ2025 13:37:44.329] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[011ÔÂ2025 13:37:44.331] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[011ÔÂ2025 13:37:44.367] [Render thread/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[011ÔÂ2025 13:37:44.588] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/MinecraftNeoForgeMod/Wallpaper/build/moddev/artifacts/neoforge-21.0.11-beta.jar%23184!/assets/.mcassetsroot' uses unexpected schema
-[011ÔÂ2025 13:37:44.588] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/MinecraftNeoForgeMod/Wallpaper/build/moddev/artifacts/neoforge-21.0.11-beta.jar%23184!/data/.mcassetsroot' uses unexpected schema
-[011ÔÂ2025 13:37:44.618] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[011ÔÂ2025 13:37:44.630] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[011ÔÂ2025 13:37:44.803] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[011ÔÂ2025 13:37:45.122] [modloading-worker-0/INFO] [cn.ksmcbrigade.wp.Wallpaper/]: Wallpaper mod loaded.
-[011ÔÂ2025 13:37:45.128] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.0.11-beta, for MC 1.21
-[011ÔÂ2025 13:37:46.033] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [wp]
-[011ÔÂ2025 13:37:46.303] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/configured, mod/wp, mod/neoforge
-[011ÔÂ2025 13:37:46.421] [Render thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Configuration file D:\MinecraftNeoForgeMod\Wallpaper\run\config\wp-client.toml is not correct. Correcting
-[011ÔÂ2025 13:37:46.505] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[011ÔÂ2025 13:37:46.853] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[011ÔÂ2025 13:37:47.093] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/api/mod_update/neoforge/configured
-[011ÔÂ2025 13:37:48.595] [Render thread/INFO] [Configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.neoforge.NeoForgeConfigProvider
-[011ÔÂ2025 13:37:48.595] [Render thread/INFO] [Configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.framework.FrameworkConfigProvider
-[011ÔÂ2025 13:37:48.596] [Render thread/INFO] [Configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.jei.JeiConfigProvider
-[011ÔÂ2025 13:37:48.596] [Render thread/INFO] [Configured/]: Creating config GUI factories...
-[011ÔÂ2025 13:37:48.604] [Render thread/INFO] [Configured/]: Registering config factory for mod wp. Found 1 config(s)
-[011ÔÂ2025 13:37:48.605] [Render thread/INFO] [Configured/]: Registering config factory for mod neoforge. Found 3 config(s)
-[011ÔÂ2025 13:37:48.697] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[011ÔÂ2025 13:37:48.697] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[011ÔÂ2025 13:37:48.773] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on ÑïÉùÆ÷ (Realtek High Definition Audio)
-[011ÔÂ2025 13:37:48.774] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[011ÔÂ2025 13:37:48.818] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.5.0 Target: 2.5.0
-[011ÔÂ2025 13:37:49.019] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[011ÔÂ2025 13:37:49.648] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[011ÔÂ2025 13:37:49.685] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[011ÔÂ2025 13:37:49.746] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[011ÔÂ2025 13:37:49.809] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[011ÔÂ2025 13:37:50.815] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[011ÔÂ2025 13:37:50.882] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[011ÔÂ2025 13:37:50.910] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[011ÔÂ2025 13:37:50.962] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[011ÔÂ2025 13:37:51.264] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[011ÔÂ2025 13:37:51.401] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[011ÔÂ2025 13:37:51.404] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[011ÔÂ2025 13:37:51.406] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[011ÔÂ2025 13:37:51.407] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[011ÔÂ2025 13:37:51.756] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[011ÔÂ2025 13:37:54.559] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_VALUE in (null): (ID: 173538523) Generic error'
-[011ÔÂ2025 13:38:03.530] [Render thread/INFO] [Configured/]: Started editing 'wp-client.toml'
-[011ÔÂ2025 13:38:10.726] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-01-01_13.38.10.png
-[011ÔÂ2025 13:38:17.051] [Render thread/INFO] [Configured/]: Stopped editing 'wp-client.toml'
-[011ÔÂ2025 13:38:35.484] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[291æœˆ2025 11:30:00.868] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.0.11-beta, --assetIndex, 17, --assetsDir, C:\\Users\\çŽ‹æµ©ç„¶\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.neoForgeVersion, 21.0.11-beta, --fml.fmlVersion, 4.0.6, --fml.mcVersion, 1.21, --fml.neoFormVersion, 20240613.152323]
+[291æœˆ2025 11:30:00.868] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[291æœˆ2025 11:30:00.868] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.3+main.0f24dec3 starting: java version 21.0.4 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[291æœˆ2025 11:30:01.238] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[291æœˆ2025 11:30:01.435] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[291æœˆ2025 11:30:01.561] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[291æœˆ2025 11:30:01.723] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/çŽ‹æµ©ç„¶/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.4+mixin.0.8.5/8adf0cff1795a169141b9e16ad7b9f6e2527a990/sponge-mixin-0.13.4+mixin.0.8.5.jar%23131!/ Service=ModLauncher Env=CLIENT
+[291æœˆ2025 11:30:01.924] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) Iris(R) Xe Graphics GL version 4.6.0 - Build 31.0.101.4502, Intel
+[291æœˆ2025 11:30:02.592] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[291æœˆ2025 11:30:03.046] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [neoforge]
+[291æœˆ2025 11:30:06.202] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.0.11-beta, --gameDir, ., --assetsDir, C:\Users\çŽ‹æµ©ç„¶\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[291æœˆ2025 11:30:06.344] [main/WARN] [mixin/]: Reference map 'wp.refmap.json' for wp.mixins.json could not be read. If this is a development environment you can ignore this message
+[291æœˆ2025 11:30:09.274] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 615 milliseconds
+[291æœˆ2025 11:30:19.458] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[291æœˆ2025 11:30:19.458] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[291æœˆ2025 11:30:19.471] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[291æœˆ2025 11:30:19.471] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[291æœˆ2025 11:30:19.471] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[291æœˆ2025 11:30:19.515] [Render thread/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[291æœˆ2025 11:30:19.965] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/NeoForgeMods/Wallpaper/build/moddev/artifacts/neoforge-21.0.11-beta.jar%23184!/assets/.mcassetsroot' uses unexpected schema
+[291æœˆ2025 11:30:19.965] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/NeoForgeMods/Wallpaper/build/moddev/artifacts/neoforge-21.0.11-beta.jar%23184!/data/.mcassetsroot' uses unexpected schema
+[291æœˆ2025 11:30:20.041] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[291æœˆ2025 11:30:20.059] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[291æœˆ2025 11:30:20.393] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[291æœˆ2025 11:30:21.004] [modloading-worker-0/INFO] [cn.ksmcbrigade.wp.Wallpaper/]: Wallpaper mod loaded.
+[291æœˆ2025 11:30:21.043] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.0.11-beta, for MC 1.21
+[291æœˆ2025 11:30:22.003] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [wp]
+[291æœˆ2025 11:30:22.174] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/configured, mod/wp, mod/neoforge
+[291æœˆ2025 11:30:22.580] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[291æœˆ2025 11:30:22.675] [Worker-Main-12/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[291æœˆ2025 11:30:22.916] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/api/mod_update/neoforge/configured
+[291æœˆ2025 11:30:24.732] [Render thread/INFO] [Configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.neoforge.NeoForgeConfigProvider
+[291æœˆ2025 11:30:24.733] [Render thread/INFO] [Configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.framework.FrameworkConfigProvider
+[291æœˆ2025 11:30:24.737] [Render thread/INFO] [Configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.jei.JeiConfigProvider
+[291æœˆ2025 11:30:24.737] [Render thread/INFO] [Configured/]: Creating config GUI factories...
+[291æœˆ2025 11:30:24.768] [Render thread/INFO] [Configured/]: Registering config factory for mod wp. Found 1 config(s)
+[291æœˆ2025 11:30:24.770] [Render thread/INFO] [Configured/]: Registering config factory for mod neoforge. Found 3 config(s)
+[291æœˆ2025 11:30:24.971] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[291æœˆ2025 11:30:24.971] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[291æœˆ2025 11:30:25.492] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on æœ¬æœºæ‰¬å£°å™¨ (Audio Device)
+[291æœˆ2025 11:30:25.492] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[291æœˆ2025 11:30:25.720] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.5.0 Target: 2.5.0
+[291æœˆ2025 11:30:25.777] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[291æœˆ2025 11:30:26.596] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[291æœˆ2025 11:30:26.642] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[291æœˆ2025 11:30:26.735] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[291æœˆ2025 11:30:26.824] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[291æœˆ2025 11:30:28.093] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[291æœˆ2025 11:30:28.166] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[291æœˆ2025 11:30:28.197] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[291æœˆ2025 11:30:28.253] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[291æœˆ2025 11:30:28.651] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[291æœˆ2025 11:30:28.947] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[291æœˆ2025 11:30:28.950] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[291æœˆ2025 11:30:28.953] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[291æœˆ2025 11:30:28.954] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[291æœˆ2025 11:30:29.007] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[291æœˆ2025 11:30:31.287] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_VALUE in (null): (ID: 173538523) Generic error'
+[291æœˆ2025 11:31:01.364] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_VALUE in (null): (ID: 173538523) Generic error'
+[291æœˆ2025 11:31:02.639] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_VALUE in (null): (ID: 173538523) Generic error'
+[291æœˆ2025 11:31:03.557] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_VALUE in (null): (ID: 173538523) Generic error'
+[291æœˆ2025 11:31:04.403] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_VALUE in (null): (ID: 173538523) Generic error'
+[291æœˆ2025 11:31:06.586] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_VALUE in (null): (ID: 173538523) Generic error'
+[291æœˆ2025 11:31:09.165] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-01-29_11.31.08.png
+[291æœˆ2025 11:31:16.411] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-01-29_11.31.16.png
+[291æœˆ2025 11:31:56.738] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_VALUE in (null): (ID: 173538523) Generic error'
+[291æœˆ2025 11:32:09.262] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

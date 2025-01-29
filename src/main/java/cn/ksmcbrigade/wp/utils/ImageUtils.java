@@ -27,6 +27,7 @@ public class ImageUtils {
 
     public static final Map<String,ResourceLocation> loadedLocation = new HashMap<>();
     public static final Map<String,Integer> loaded = new HashMap<>();
+    public static final Map<ResourceLocation,DynamicTexture> loadedTexture = new HashMap<>();
 
     public static int loadTexture(String filePath) {
         if(loaded.containsKey(filePath)) return loaded.get(filePath);
@@ -93,5 +94,21 @@ public class ImageUtils {
         outputImage.createGraphics().drawImage(image, 0, 0, null);
         ImageIO.write(outputImage,"png",file1);
         return file1;
+    }
+
+    public static DynamicTexture register(DynamicTexture dynamicTexture,ResourceLocation key){
+        if(loadedTexture.containsKey(key)){
+            return dynamicTexture;
+        }
+        else{
+            Minecraft.getInstance().textureManager.register(key,dynamicTexture);
+            loadedTexture.put(key,dynamicTexture);
+            return dynamicTexture;
+        }
+    }
+
+    public static void unregister(ResourceLocation resourceLocation){
+        Minecraft.getInstance().textureManager.release(resourceLocation);
+        loadedTexture.remove(resourceLocation);
     }
 }

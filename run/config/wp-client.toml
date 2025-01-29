@@ -2,7 +2,7 @@
 #Default: false
 enable = true
 #The file path of the wallpaper.
-path = "E:\\SteamLibrary\\steamapps\\workshop\\content\\431960\\2142333294\\vrq4y9fdv2651.png"
+path = "config\\wp\\wp_816594452014.png"
 #The enable of the background blur when the wallpaper working.
 #Default: false
 blur_enable = false
